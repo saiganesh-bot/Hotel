@@ -8,7 +8,7 @@ export default function LoadingScreen() {
     // Hide the loader after 2.2 seconds to allow the entry animations to feel premium
     const timer = setTimeout(() => {
       setIsVisible(false);
-    }, 2200);
+    }, 5000);
     return () => clearTimeout(timer);
   }, []);
 
